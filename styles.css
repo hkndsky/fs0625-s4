@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #92dce5;
+}
+
+.kutu {
+  background: #f7ec59;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 1280px;
+  margin: 100px auto;
+}
+
+.yazi {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 16px;
+  color: #44633f;
+}
+
+.info {
+  flex: 2;
+}
+
+.gorsel {
+  flex: 1;
+}
+
+.gorsel img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2b2d42;
+  font-weight: 700;
+}
+
+.font-antik {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+.font-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.pati {
+  font-size: 3rem;
+}
